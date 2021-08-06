@@ -1,0 +1,76 @@
+html { 
+    background-image: linear-gradient(180deg,rgba(234, 224, 213,0.7),rgba(198, 172, 143,0.3))
+, url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+
+    background-attachment: fixed;
+
+    font-family: "Poppins", sans-serif;
+}
+
+header{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+#survey-form { 
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+.question { 
+    display:flex;
+    flex-direction:column;
+    align-items:stretch;
+    margin-bottom:5%;
+}
+
+.question-group { 
+    display:flex;
+    flex-direction: column;
+    width:60%;
+    margin-bottom:5%;
+}
+
+.option { 
+    display:flex;
+    align-items:flex-start;
+    margin-bottom:2.5%;
+}
+
+.form-label{
+    font-size: 115%;
+}
+
+input[type=text] ,input[type=email] , input[type=number] , select , textarea  { 
+
+    padding:10px;
+    margin: 5px 5px;
+    border: 5px solid #5e503f ;
+    border-radius:10px;
+    font-family:inherit;
+    font-size:inherit;
+}
+
+button[type='submit'] { 
+ 
+    border-radius:10px;
+    width:60%;
+    align-self:center;
+    margin: 10px ;
+    font-size: inherit;
+    font-family: inherit;
+    margin-bottom:5%;
+    background-color:#c6ac8f;
+}
+
+#suggestions{
+    height:15vw;
+}
+
+input[type='radio'], input[type='checkbox'] { 
+
+    margin-top:7px;
+    vertical-align:middle;
+}
