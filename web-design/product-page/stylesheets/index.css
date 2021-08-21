@@ -1,0 +1,171 @@
+
+html,body { 
+    background-color:rgba(243, 240, 217, 0.8) ;   
+    font-family:'Ubuntu Condensed', sans-serif;
+}
+pre{ 
+    font-family: inherit;
+}
+
+header { 
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-start;
+    position:sticky;
+    background-color: #FFFFFF;
+    border-radius:2px;
+    top:0;
+    margin-top:0px;
+}
+
+
+nav{
+    display:flex;
+    flex-direction:row;
+    flex-grow:2;
+    justify-content: flex-end ;
+    align-items:center;
+    background-color:#FFFFFF;
+}
+
+header a { 
+    text-align:center; 
+    padding:16px;
+    font-size:2.5vw;
+}
+
+header img { 
+    border-radius:25%;
+    width:15vw;
+    min-width:70px;
+    max-width:135px;
+}
+
+/*#company-intro{
+    display:flex;
+    justify-content:flex-start;
+    align-items:inherit;
+    flex-grow:2;
+}*/
+
+#business-name { 
+    font-family:"MonteCarlo",sans-serif;
+    font-size:4.5vw;
+}
+
+#main-header{
+    text-align:center;
+}
+
+#email-submit{
+    display:flex;
+    justify-content:center;
+    margin-bottom:25px;
+}
+#email-submit #email { 
+    width:45vw;
+    max-width: 330px;
+    margin-right:10px;
+    padding:5px;
+    font-family:inherit;
+}
+
+#email-submit #submit { 
+    font-family:inherit;
+}
+
+.service { 
+    display:flex;
+    justify-content:flex-start;;
+    margin-top:35px;
+}
+
+.service img { 
+    width:110px;
+    margin-right:45px;
+}
+
+#company-paragraph{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+
+#company-services{
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+}
+
+#video-div{
+    text-align:center;
+    margin-top:35px;
+}
+
+.trombone-type{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    background-color:rgb(252, 252, 237);
+    width:35%;
+    max-width:350px;
+    font-size:115%;
+    border-style:solid;
+    border-color:rgb(54, 37, 0);
+    border-width:7px;
+    padding:15px;
+    margin:35px;
+
+}
+
+.trombone-type pre{
+    border-style:solid;
+    border-width:5px;
+    border-color:rgb(255, 192, 109);
+    border-radius:5px;
+    padding:15px;
+}
+
+#trombones{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+footer{
+    display:flex;
+    justify-content:flex-end;
+    align-items:baseline;
+    align-content:space-between;
+}
+
+
+@media screen and (min-width: 600px) { 
+    header a { 
+        font-size:25px;
+    }
+    #business-name{
+        font-size:35px;
+    }
+}
+
+@media screen and (max-width:450px) { 
+    header a { 
+        font-size:15px;
+    }
+    #business-name{
+        font-size:20px;
+    }
+}
+
+@media screen and (min-width:1000px) { 
+    section{
+        display:flex;
+        flex-direction:row;
+        justify-content:space-around;
+    }
+    .trombone-type{
+        margin-top:35px;
+    }
+}
